@@ -1,4 +1,4 @@
-rom scapy.all import ARP, Ether, srp
+import from scapy.all import ARP, Ether, srp
 
 def scan_network(ip_range):
     arp = ARP(pdst=ip_range)
